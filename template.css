@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-/* ここからcssを書いていきましょう */
+/*ここからcssを書いていきましょう*/
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
@@ -125,7 +125,7 @@ header {
   font-weight: normal;
 }
 
-.lesson{
+.lesson {
   float: left;
   width: 25%;
 }
@@ -169,4 +169,18 @@ header {
   position: relative;
   top: 7px;
   box-shadow: none;
+}
+
+footer img {
+  width: 124px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding: 30px 0;
+  border-top: 1px solid #eee;
 }
