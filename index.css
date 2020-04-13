@@ -71,4 +71,37 @@ a{
 .btn-3{
 	margin-top: 15px;
 	background-color: #55acee;
+	margin-bottom: 70px;
+}
+.lessons{
+	height: 580px;
+	padding-top: 80px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+.lesson-head{
+	font-weight: normal;
+	margin-bottom: 50px;
+	color: #000;
+}
+.lesson{
+	float: left;
+	width: 25%;
+}
+.lesson-text{
+	margin-top: 15px;
+	width: 80%;
+	font-size: 13px;
+	color: #b3aeb5;
+	display: inline-block;
+}
+.icon{
+	position: relative;
+}
+.icon p{
+	position: absolute;
+	color: white;
+	width: 100%;
+	top: 44%;
+
 }
