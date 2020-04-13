@@ -2,8 +2,30 @@
 	margin: 0;
 	padding: 0;
 }
-body {
-  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+header{
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34,49,52,0.9);
+	position: fixed;
+}
+.logo{
+	margin: 20px 0;
+	width: 124px;
+}
+.login{
+	height: 65px;
+	float: right;
+	background-color: rgba(255,255,255,0.3);
+	transition: all 0.5s;
+}
+.login:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.login a{
+	color: white;
+	line-height: 65px;
+	display: block;
+	margin: 0 25px;
 }
 
 .wrapper{
