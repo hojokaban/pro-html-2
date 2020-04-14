@@ -95,10 +95,10 @@ a{
 }
 .lesson-head{
 	font-weight: normal;
-	margin-bottom: 50px;
 	color: #000;
 }
 .lesson{
+	margin-top: 50px;
 	float: left;
 	width: 25%;
 }
@@ -159,8 +159,20 @@ footer{
 	.title{
 		font-size: 32px;
 	}
+	.lessons{
+		height: 790px;
+	}
+	.lesson-head{
+		font-size: 20px;
+	}
+	.lesson{
+		width: 50%;
+	}
 }
 @media screen and (max-width: 670px){
+	*{
+		padding: 0;
+	}
 	.header-right{
 		display: none;
 	}
@@ -179,7 +191,7 @@ footer{
 		text-align: left;
 		font-size: 14px;
 	}
-	.btn{
+	.top .btn{
 		width: 100%;
 	}
 	.btn-2{
@@ -188,5 +200,11 @@ footer{
 	.btn-3{
 		margin-top: 10px;
 		float: none;
+	}
+	.lessons{
+		height: 1350px;
+	}
+	.lesson{
+		width: 100%;
 	}
 }
