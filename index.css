@@ -13,16 +13,21 @@ header{
 	margin: 20px 0;
 	width: 124px;
 }
-.login{
-	height: 65px;
+.header-right{
 	float: right;
-	background-color: rgba(255,255,255,0.3);
+}
+.bar{
+	display: none;
+}
+.header-link{
+	float: right;
+	height: 65px;
 	transition: all 0.5s;
 }
-.login:hover{
+.header-link:hover{
 	background-color: rgba(255, 255, 255, 0.5);
 }
-.login a{
+.header-link a{
 	color: white;
 	line-height: 65px;
 	display: block;
@@ -37,7 +42,8 @@ header{
 	text-align: center;
 }
 .base{
-	width: 1170px;
+	max-width: 1170px;
+	width: 100%;
 	margin: 0 auto;
 }
 .title{
@@ -143,4 +149,19 @@ footer{
 }
 .logo-{
 	width: 124px;
+}
+
+@media screen and (max-width: 1000px){
+}
+@media screen and (max-width: 670px){
+	.header-right{
+		display: none;
+	}
+	.bar{
+		display: inline;
+		margin: 21px 21px 0 0;
+		float: right;
+		color: white;
+		font-size: 25px;
+	}
 }
