@@ -168,11 +168,11 @@ footer{
 	.lesson{
 		width: 50%;
 	}
+	footer{
+		text-align: center;
+	}
 }
 @media screen and (max-width: 670px){
-	*{
-		padding: 0;
-	}
 	.header-right{
 		display: none;
 	}
@@ -207,4 +207,8 @@ footer{
 	.lesson{
 		width: 100%;
 	}
+	.btn2{
+		width: 100%;
+	}
+
 }
