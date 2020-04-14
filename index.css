@@ -55,10 +55,14 @@ header{
 .text{
 	opacity: 0.7;
 }
+.or{
+	opacity: 0.7;
+}
 a{
 	text-decoration: none;
 }
 .btn{
+	text-align: center;
 	opacity: 0.8;
 	border-radius: 4px;
 	color: white;
@@ -152,6 +156,9 @@ footer{
 }
 
 @media screen and (max-width: 1000px){
+	.title{
+		font-size: 32px;
+	}
 }
 @media screen and (max-width: 670px){
 	.header-right{
@@ -163,5 +170,23 @@ footer{
 		float: right;
 		color: white;
 		font-size: 25px;
+	}
+	.title{
+		text-align: left;
+		font-size: 24px;
+	}
+	.text{
+		text-align: left;
+		font-size: 14px;
+	}
+	.btn{
+		width: 100%;
+	}
+	.btn-2{
+		float: none;
+	}
+	.btn-3{
+		margin-top: 10px;
+		float: none;
 	}
 }
